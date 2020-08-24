@@ -20,7 +20,7 @@ body{
     font-family: 'Gilroy';
     list-style: none;
     text-decoration: none;
-    -webkit-user-select: none;      
+    -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
@@ -45,7 +45,7 @@ input[type=number] {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-    background-color: #34006a;
+    background-color: #39cbdf;
 }
 
 .budget-container .app-title{
@@ -54,7 +54,7 @@ input[type=number] {
 }
 
 .budget-container .app-title a{
-    color: #FFF;
+    color: #4e4e4e;
 }
 .budget-container .app-title a b{
     font-family: 'Gilroy Bold';
@@ -70,13 +70,13 @@ input[type=number] {
 }
 
 .budget-header .balance .title{
-    color: #FFF;
+    color: #4e4e4e;
     font-size: 1em;
     font-family: 'Gilroy Bold';
 }
 
 .budget-header .balance .value{
-    color: #FFF;
+    color: #4e4e4e;
     font-size: 2em;
     margin-top: 10px;
     font-family: 'Gilroy Bold';
@@ -88,7 +88,7 @@ input[type=number] {
     margin: 35px auto 0;
     line-height: 1.7em;
     text-align: center;
-    
+
 }
 
 .budget-header .account .income, .chart, .outcome{
@@ -99,16 +99,16 @@ input[type=number] {
 }
 
 .budget-header .account .income .title{
-    color: #FFF;
+    color: #4e4e4e;
     opacity: 0.5;
 }
 .budget-header .account .income .income-total{
-    color: #FFF;
+    color: #4e4e4e;
     font-family: 'Gilroy Bold';
 }
 
 .budget-header .account .outcome .title{
-    color: #FFF;
+    color: #4e4e4e;
     opacity: 0.5;
 }
 .budget-header .account .outcome .outcome-total{
@@ -123,13 +123,13 @@ input[type=number] {
     height: 470px;
     background-color: #FFF;
     margin-top: 35px;
-    border-radius: 30px 30px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 .budget-dashboard .dash-title{
     display: inline-block;
     color: #1a0034;
-    font-size: 1.7em;
+    font-size: 1.9em;
     margin-left: 20px;
     margin-top: 30px;
     font-family: 'Gilroy Bold';
@@ -164,7 +164,7 @@ input[type=number] {
 
 .budget-dashboard input{
     /* MAKE INPUT SELECTABLE */
-    -webkit-user-select: auto;      
+    -webkit-user-select: auto;
     -moz-user-select: auto;
     -ms-user-select: auto;
     user-select: auto;
@@ -431,4 +431,7 @@ input[type=number] {
     background-image: url('icon/trash.png');
     background-size: 20px 20px;
     background-repeat: no-repeat;
+}
+.active{
+    opacity : 1 !important;
 }
